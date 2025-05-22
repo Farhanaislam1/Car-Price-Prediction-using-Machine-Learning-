@@ -1,14 +1,14 @@
-🚗 Car Price Prediction using Machine Learning
-📊 Project Overview
-This project focuses on predicting car prices using various machine learning models. Using a dataset from Kaggle, the goal is to understand how different features such as brand, engine size, mileage, and more influence car prices. Through exploratory data analysis (EDA), visualizations, and regression techniques, we identify the best-performing model for accurate price prediction.
+# 🚗 Car Price Prediction using Machine Learning
+# 📊 Project Overview
+## This project focuses on predicting car prices using various machine learning models. Using a dataset from Kaggle, the goal is to understand how different features such as brand, engine size, mileage, and more influence car prices. Through exploratory data analysis (EDA), visualizations, and regression techniques, we identify the best-performing model for accurate price prediction.
 
-📁 Dataset
-The dataset used for this project is publicly available on Kaggle:
+# 📁 Dataset
+## The dataset used for this project is publicly available on Kaggle:
 🔗 Kaggle Car Dataset
 
 It contains specifications for a wide variety of cars, ranging from high-end brands like Bugatti and Lamborghini to more affordable ones like Toyota, Ford, and Honda.
 
-🔍 Project Objectives
+# 🔍 Project Objectives
 Analyze and clean the dataset
 
 Visualize feature relationships with car price
@@ -19,7 +19,7 @@ Evaluate model performance using MAE and MSE
 
 Select the best model for car price prediction
 
-🛠️ Technologies Used
+# 🛠️ Technologies Used
 Python
 
 Pandas, NumPy – data processing
@@ -30,7 +30,7 @@ Scikit-learn – machine learning models
 
 Jupyter Notebook – analysis and development
 
-📈 Machine Learning Models Applied
+# 📈 Machine Learning Models Applied
 Linear Regression
 
 Support Vector Regressor
@@ -47,7 +47,7 @@ MLP (Neural Network) Regressor
 
 Each model’s predictions are visualized using regplots, and performance is compared using barplots of Mean Absolute Error (MAE) and Mean Squared Error (MSE).
 
-📊 Visual Highlights
+# 📊 Visual Highlights
 # Correlation heatmaps
 ![image](https://github.com/user-attachments/assets/9a6870e7-6d4c-4c21-a3e5-3ffc6d425128)
 
@@ -70,7 +70,7 @@ Regression plots for model outputs
 
 Barplots comparing model errors
 
-🧠 Key Learnings
+# 🧠 Key Learnings
 Strong correlation between Engine HP and Engine Cylinders
 
 Inverse relationship between City MPG and Engine Cylinders
@@ -79,10 +79,10 @@ Popularity trends reflect real-world car characteristics
 
 Model performance varies significantly across algorithms
 
-✅ Conclusion
+# ✅ Conclusion
 This project demonstrates the power of machine learning in predicting car prices using real-world data. Comparing multiple regression models offers insights into model behavior and helps identify the most effective one for this task.
 
-📬 Contact
+# 📬 Contact
 Farhana Islam
 🔗 LinkedIn
 💻 GitHub
