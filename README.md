@@ -84,6 +84,6 @@ This project demonstrates the power of machine learning in predicting car prices
 
 # 📬 Contact
 Farhana Islam
-🔗 LinkedIn
-💻 GitHub
+🔗 [LinkedIn](https://www.linkedin.com/in/farhana-islam-261938262)
+💻 [GitHub](https://github.com/Farhanaislam1) 
 
