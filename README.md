@@ -28,7 +28,7 @@ Visualize feature relationships with car price
 
 Apply multiple regression models
 
-Evaluate model performance using MAE and MSE
+Evaluate model performance using MAE, MSE, and R² values
 
 Select the best model for car price prediction
 
