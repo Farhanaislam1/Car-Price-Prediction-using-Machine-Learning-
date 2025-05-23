@@ -95,17 +95,20 @@ Popularity impact on prices.
 Outlier detection in mileage features.
 
 # Machine Learning Models & Performance
-Several regression models were implemented and evaluated on the test data:
+## Regplot for Decision Tree Regressor
+![image](https://github.com/user-attachments/assets/eea2fb85-633f-4dc8-bffd-6795c704b694)
+## Regplot of Gradient Boosting Regressor
+![image](https://github.com/user-attachments/assets/2c1a0d1c-c602-4579-8701-c763f1bab7a3)
 
-## Model	Mean Absolute Error (MAE)	Mean Squared Error (MSE)
-## Linear Regression	6,737	364,527,989
-## Support Vector Regressor	22,525	2,653,742,304
-## K Nearest Regressor	4,668	198,923,161
-## PLS Regression	6,732	364,661,296
-## Decision Tree Regressor	3,327	135,789,622
-## Gradient Boosting Regressor	4,432	175,275,369
-## MLP Regressor	6,467	250,908,327
+Several regression models were implemented and evaluated on the test data:
 ![image](https://github.com/user-attachments/assets/1aea1765-a47e-43b4-9fcb-ee1a8c2290cb)
+## Barplot of machine learning models with mean absolute error
+![image](https://github.com/user-attachments/assets/c9795976-d981-470c-8b9e-ebd4a1966bcb)
+## Barplot of machine learning models with mean squared error
+![image](https://github.com/user-attachments/assets/b9fccac8-27c3-4c39-ae37-4a9e03e29aa5)
+## Bar plot comparing the R² values of different machine learning models to evaluate their predictive performance
+![image](https://github.com/user-attachments/assets/63208f06-ec49-4aa4-a656-7863b2bf2765)
+
 
 Decision Tree Regressor emerged as the best-performing model with the lowest MAE and MSE.
 
