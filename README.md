@@ -77,7 +77,7 @@ Vehicle sizes are fairly evenly distributed, with compact cars being the most co
 
 Outliers in highway MPG were removed to improve model accuracy.
 
-Correlation heatmaps reveal strong relationships between horsepower and cylinders, and between city and highway MPG.
+Correlation heatmaps reveal strong relationships between engine horsepower and cylinders, and between city and highway MPG.
 
 # 📊 Visualization Highlights
 # Correlation heatmaps
