@@ -97,14 +97,14 @@ Outlier detection in mileage features.
 # Machine Learning Models & Performance
 Several regression models were implemented and evaluated on the test data:
 
-Model	Mean Absolute Error (MAE)	Mean Squared Error (MSE)
-Linear Regression	6,737	364,527,989
-Support Vector Regressor	22,525	2,653,742,304
-K Nearest Regressor	4,668	198,923,161
-PLS Regression	6,732	364,661,296
-Decision Tree Regressor	3,327	135,789,622
-Gradient Boosting Regressor	4,432	175,275,369
-MLP Regressor	6,467	250,908,327
+## Model	Mean Absolute Error (MAE)	Mean Squared Error (MSE)
+## Linear Regression	6,737	364,527,989
+## Support Vector Regressor	22,525	2,653,742,304
+## K Nearest Regressor	4,668	198,923,161
+## PLS Regression	6,732	364,661,296
+## Decision Tree Regressor	3,327	135,789,622
+## Gradient Boosting Regressor	4,432	175,275,369
+## MLP Regressor	6,467	250,908,327
 ![image](https://github.com/user-attachments/assets/1aea1765-a47e-43b4-9fcb-ee1a8c2290cb)
 
 Decision Tree Regressor emerged as the best-performing model with the lowest MAE and MSE.
