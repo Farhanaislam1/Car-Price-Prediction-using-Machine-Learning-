@@ -58,7 +58,7 @@ Gradient Boosting Regressor
 
 MLP (Neural Network) Regressor
 
-Each model’s predictions are visualized using regplots, and performance is compared using barplots of Mean Absolute Error (MAE) and Mean Squared Error (MSE).
+Each model’s predictions are visualized using regplots, and performance is compared using barplots of Mean Absolute Error (MAE), R² values, and Mean Squared Error (MSE).
 
 # Exploratory Data Analysis (EDA)
 Chevrolet and Ford are the most frequent manufacturers in the dataset.
@@ -105,6 +105,7 @@ PLS Regression	6,732	364,661,296
 Decision Tree Regressor	3,327	135,789,622
 Gradient Boosting Regressor	4,432	175,275,369
 MLP Regressor	6,467	250,908,327
+![image](https://github.com/user-attachments/assets/1aea1765-a47e-43b4-9fcb-ee1a8c2290cb)
 
 Decision Tree Regressor emerged as the best-performing model with the lowest MAE and MSE.
 
