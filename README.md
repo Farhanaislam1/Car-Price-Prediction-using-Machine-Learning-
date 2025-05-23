@@ -79,27 +79,33 @@ Outliers in highway MPG were removed to improve model accuracy.
 
 Correlation heatmaps reveal strong relationships between horsepower and cylinders, and between city and highway MPG.
 
-# Visualizations
-Distribution of car manufacturers and popularity.
+# 📊 Visualization Highlights
+# Correlation heatmaps
+![image](https://github.com/user-attachments/assets/9a6870e7-6d4c-4c21-a3e5-3ffc6d425128)
 
-Year-wise trend showing an increase in car demand.
+# Countplot of different car companies
+![image](https://github.com/user-attachments/assets/85c4b781-95dd-431f-9bdd-8ea2f48f9f96)
+# Countplot of the total cars per different years
+![image](https://github.com/user-attachments/assets/6eec6604-27c2-4e9f-90da-d5df7c4801fa)
+# Countplot of Vehicle Size
+![image](https://github.com/user-attachments/assets/388e03ec-7ca9-418f-935b-aafeb8372c69)
+# Grouping on the basis of Make with 'Popularity' values
+![image](https://github.com/user-attachments/assets/cbae5a4f-4f78-4cf2-af01-cac2b68b48c2)
+# Scatterplot between 'highway MPG' and 'city mpg'
+![image](https://github.com/user-attachments/assets/80a2fc3a-b6f9-4bd4-8f64-06b8feefdb55)
+# Regplot between 'Engine Cylinders' and 'Engine HP'
+![image](https://github.com/user-attachments/assets/cdf6397b-5c75-4683-bdcd-e577f80c4be9)
+# Regplot between 'city mpg' and 'Engine Cylinders'
+![image](https://github.com/user-attachments/assets/bae869ef-e56f-423f-8566-cc47649c81f1)
 
-Transmission types and fuel types distributions.
-
-Average price trends by year and manufacturer.
-
-Horsepower comparison across car brands.
-
-Popularity impact on prices.
-
-Outlier detection in mileage features.
 
 # Machine Learning Models & Performance
+# Regression plots for model outputs
 ## Regplot for Decision Tree Regressor
 ![image](https://github.com/user-attachments/assets/eea2fb85-633f-4dc8-bffd-6795c704b694)
 ## Regplot of Gradient Boosting Regressor
 ![image](https://github.com/user-attachments/assets/2c1a0d1c-c602-4579-8701-c763f1bab7a3)
-
+# Barplots comparing model errors
 Several regression models were implemented and evaluated on the test data:
 ![image](https://github.com/user-attachments/assets/1aea1765-a47e-43b4-9fcb-ee1a8c2290cb)
 ## Barplot of machine learning models with mean absolute error
@@ -109,14 +115,7 @@ Several regression models were implemented and evaluated on the test data:
 ## Bar plot comparing the R² values of different machine learning models to evaluate their predictive performance
 ![image](https://github.com/user-attachments/assets/63208f06-ec49-4aa4-a656-7863b2bf2765)
 
-
-Decision Tree Regressor emerged as the best-performing model with the lowest MAE and MSE.
-
-Models like Support Vector Regressor were slower to train and less accurate.
-
-Decision Tree models also offer interpretability, helping understand feature importance in price prediction.
-
-# Outcomes
+# 🧠 Key Learnings
 Decision Tree Regressor can effectively predict car prices across a wide range of manufacturers and models.
 
 Bugatti and other luxury brands have distinctly higher prices.
@@ -136,41 +135,10 @@ Experiment with ensemble and deep learning models for enhanced predictions.
 
 Incorporate market trends and demand fluctuations for dynamic pricing.
 
-# 📊 Visual Highlights
-# Correlation heatmaps
-![image](https://github.com/user-attachments/assets/9a6870e7-6d4c-4c21-a3e5-3ffc6d425128)
-
-# Countplot of different car companies
-![image](https://github.com/user-attachments/assets/85c4b781-95dd-431f-9bdd-8ea2f48f9f96)
-# Countplot of the total cars per different years
-![image](https://github.com/user-attachments/assets/6eec6604-27c2-4e9f-90da-d5df7c4801fa)
-# Countplot of Vehicle Size
-![image](https://github.com/user-attachments/assets/388e03ec-7ca9-418f-935b-aafeb8372c69)
-# Grouping on the basis of Make with 'Popularity' values
-![image](https://github.com/user-attachments/assets/cbae5a4f-4f78-4cf2-af01-cac2b68b48c2)
-# Scatterplot between 'highway MPG' and 'city mpg'
-![image](https://github.com/user-attachments/assets/80a2fc3a-b6f9-4bd4-8f64-06b8feefdb55)
-# Regplot between 'Engine Cylinders' and 'Engine HP'
-![image](https://github.com/user-attachments/assets/cdf6397b-5c75-4683-bdcd-e577f80c4be9)
-# Regplot between 'city mpg' and 'Engine Cylinders'
-![image](https://github.com/user-attachments/assets/bae869ef-e56f-423f-8566-cc47649c81f1)
-
-Regression plots for model outputs
-
-Barplots comparing model errors
-
-# 🧠 Key Learnings
-Strong correlation between Engine HP and Engine Cylinders
-
-Inverse relationship between City MPG and Engine Cylinders
-
-Popularity trends reflect real-world car characteristics
-
-Model performance varies significantly across algorithms
-
 # ✅ Conclusion
 This project demonstrates the power of machine learning in predicting car prices using real-world data. Comparing multiple regression models offers insights into model behavior and helps identify the most effective one for this task.
-
+## Recommendation
+#### Although some outliers remain in the dataset, it is recommended to perform a thorough outlier detection and removal process. Outliers can negatively impact model accuracy by skewing predictions and increasing error values. Removing or treating these outliers in future iterations may lead to improved model performance and more reliable results.
 # 📬 Contact
 Farhana Islam
 🔗 [LinkedIn](https://www.linkedin.com/in/farhana-islam-261938262)
